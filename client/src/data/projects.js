@@ -135,12 +135,64 @@ const PROJECTS = [
 ];
 
 export const MINI_PROJECTS = [
-  { id: 1, title: 'Smart Street Light Controller', area: 'Automation' },
-  { id: 2, title: 'Home Energy Usage Tracker', area: 'IoT' },
-  { id: 3, title: 'Temperature-Based Fan Speed Controller', area: 'Embedded' },
-  { id: 4, title: 'IR Remote Controlled Home Appliances', area: 'Automation' },
-  { id: 5, title: 'Digital Voltmeter with LCD Display', area: 'Instrumentation' },
-  { id: 6, title: 'Soil Moisture Monitoring System', area: 'IoT' },
+   {
+    id: 1,
+    title: "Temperature Monitoring System Using Arduino and LM35",
+    area: "Embedded Systems",
+    date: "Apr 2025",
+    technologies: ["Arduino UNO", "LM35", "Display Interface"],
+    note: "Developed a real-time temperature monitoring system using an LM35 temperature sensor and Arduino UNO. Displayed live temperature readings through a display interface.",
+  },
+  {
+    id: 2,
+    title: "Traffic Light Controller Using 555 Timer and CD4017",
+    area: "Digital Electronics",
+    date: "Nov 2024",
+    technologies: ["555 Timer IC", "CD4017 Decade Counter", "LEDs"],
+    note: "Designed a sequential traffic light controller using a 555 Timer IC and CD4017 decade counter. Performed timing analysis for automatic signal switching.",
+  },
+  {
+    id: 3,
+    title: "Fire Alarm System",
+    area: "Electronic Safety Systems",
+    date: "Apr 2024",
+    technologies: [
+      "BC547 Transistors",
+      "IR Receiver LEDs",
+      "Buzzer",
+      "Indicator LEDs",
+    ],
+    note: "Designed and implemented a fire alarm circuit using BC547 NPN transistors, IR receiver LEDs, a buzzer and indicator LEDs.",
+  },
+  {
+    id: 4,
+    title: "4-Bit R-2R Ladder Digital-to-Analog Converter",
+    area: "Analog Electronics",
+    date: "",
+    technologies: ["R-2R Ladder Network", "IC 741 Op-Amp", "Resistors"],
+    note: "Developed a 4-bit R-2R ladder DAC using an IC 741 operational amplifier. Studied binary-to-analog conversion and output-voltage scaling.",
+  },
+  {
+    id: 5,
+    title: "Star–Delta Connection in a Three-Phase System",
+    area: "Electrical Machines and Power Systems",
+    date: "Oct 2023",
+    technologies: [
+      "Three-Phase Supply",
+      "Resistive Loads",
+      "Star Connection",
+      "Delta Connection",
+    ],
+    note: "Implemented star and delta configurations using resistive loads. Measured and analyzed line voltage, phase voltage, line current and phase current.",
+  },
+  {
+    id: 6,
+    title: "Charging and Discharging of a Capacitor",
+    area: "Electrical Circuit Analysis",
+    date: "Apr 2023",
+    technologies: ["Capacitor", "Resistors", "DC Supply", "RC Circuit"],
+    note: "Designed an RC circuit to study capacitor charging and discharging characteristics, transient response and the RC time constant.",
+  },
 ];
 
 export default PROJECTS;

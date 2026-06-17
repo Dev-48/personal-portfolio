@@ -46,14 +46,14 @@ export const CERTIFICATIONS = [
     id: 4,
     title: "Poster Presenter – EESD 2026",
     issuer: "Energy and Environmental Engineering Research Group, MUET",
-    certificate_url: "/certificate/3.jpg",
+    certificate_url: "/certificate/2.jpeg",
     note: "Presented a research poster at the 8th International Conference on Energy, Environment and Sustainable Development, held on 25–26 March 2026.",
   },
   {
     id: 5,
     title: "Idea Generation Workshop on Clean Energy and Climate-Resilient Housing",
     issuer: "Research and Development Foundation",
-    certificate_url: "/certificate/5.jpg",
+    certificate_url: "/certificate/1.jpeg",
     note: "Participated in an idea-generation workshop focused on clean energy and climate-resilient housing in rural Sindh.",
   },
   {
@@ -102,7 +102,7 @@ export const CERTIFICATIONS = [
     id: 12,
     title: "IEEE Circuits and Systems Society Membership 2024",
     issuer: "IEEE Circuits and Systems Society",
-    certificate_url: "/certificate/2.jpeg",
+    certificate_url: "/certificate/3.jpg",
     note: "Recognized as a student member of the IEEE Circuits and Systems Society in good standing.",
   },
   {
