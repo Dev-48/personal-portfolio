@@ -94,11 +94,7 @@ export default function About() {
                 fabrication, system testing and troubleshooting.
               </p>
 
-              <div className="mt-6 rounded-2xl border border-electric/20 bg-electric/[0.07] p-4">
-                <p className="text-sm font-semibold leading-7 text-electric">
-                  {PROFILE.tagline}
-                </p>
-              </div>
+              
 
               <div className="mt-5 flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3">
                 <span className="relative flex h-3 w-3 shrink-0">
