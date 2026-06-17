@@ -1,0 +1,146 @@
+const PROJECTS = [
+  {
+    id: 2,
+    title: 'Industrial Exhaust-Air Energy Recovery Using Hybrid VAWT–PMSG',
+    status: 'Ongoing',
+    category: 'Renewable Energy',
+    overview:
+      'Final-year project recovering energy from industrial exhaust-air streams using a hybrid VAWT coupled with a PMSG. Includes power-electronics conversion stages, MPPT control, battery integration, and pressure-loss analysis.',
+    tags: ['PMSG', 'MATLAB/Simulink', 'VAWT', 'MPPT', 'Power Electronics', 'Energy Recovery'],
+    role: 'FYP electrical and embedded systems developer focused on simulation, power-electronics chain, analysis and documentation',
+    key_features: [
+      'Hybrid VAWT–PMSG energy-conversion chain',
+      'Rectifier, DC link and DC–DC stage modelling',
+      'P&O MPPT approach for extraction logic',
+      'Battery integration concept',
+      'Pressure-loss and net-power analysis',
+    ],
+    image_url: '/uploads/Industrial Exhaust-Air Energy Recovery Using Hybrid VAWT–PMSG.jpg',
+    diagram_url: '/uploads/Industrial Exhaust-Air Energy Recovery Using Hybrid VAWT–PMSG.jpg',
+  },
+  {
+    id: 3,
+    title: 'Smart Energy Management with Theft Detection Using Solar and Grid',
+    status: 'Completed',
+    category: 'Smart Energy',
+    overview:
+      'Smart energy management project combining solar and grid sources with automatic transfer switching, sensing and theft-detection oriented monitoring.',
+    tags: ['ESP32', 'ATS', 'ACS712', 'ZMPT101B', 'Relays', 'LCD', 'Dashboard'],
+    role: 'Embedded firmware, sensing, relay-control and dashboard-oriented project developer',
+    key_features: [
+      'Solar and grid source integration concept',
+      'Automatic transfer switching',
+      'Current and voltage sensing using ACS712 and ZMPT101B',
+      'Relay-based control',
+      'LCD display and dashboard monitoring',
+    ],
+    image_url: '/uploads/Smart Energy Management with Theft Detection Using Solar and Grid.jpg',
+    diagram_url: '/uploads/Smart Energy Management with Theft Detection Using Solar and Grid.jpg',
+  },
+  {
+    id: 4,
+    title: 'Automatic Solar Panel Cleaning System',
+    status: 'Completed',
+    category: 'Renewable Energy',
+    overview:
+      'Automated cleaning mechanism for solar panels using timed control, motor drive and limit-switch feedback to support panel maintenance workflows.',
+    tags: ['Arduino UNO', 'BTS7960', 'Gear Motor', 'DS3231', 'HC-05', 'Limit Switches', 'Pump'],
+    role: 'Hardware integration and Arduino control logic for cleaning sequence, motor direction and pump operation',
+    key_features: [
+      'Scheduled cleaning using DS3231 RTC',
+      'BTS7960 motor driver with gear motor',
+      'HC-05 Bluetooth control option',
+      'Limit switches for travel boundaries',
+      'Pump integration for wet cleaning',
+    ],
+    image_url: '/uploads/Automatic Solar Panel Cleaning System.jpg',
+    diagram_url: '/uploads/Automatic Solar Panel Cleaning System.jpg',
+  },
+  {
+    id: 5,
+    title: 'LPG and Natural-Gas Leakage Detection with Servo Flow Control',
+    status: 'Completed',
+    category: 'Safety IoT',
+    overview:
+      'Safety-focused gas leakage and fire detection prototype with servo-based flow control, ventilation, display, logging and dashboard states.',
+    tags: ['ESP32', 'MQ-2', 'MQ-5', 'Flame Sensor', 'Servo', 'Fan', 'LCD', 'RTC', 'microSD', 'Dashboard'],
+    role: 'Contract prototype developer for sensing, state logic, actuator control, display and logging integration',
+    key_features: [
+      'SAFE, WARNING, GAS LEAK and FIRE states',
+      'MQ-2 and MQ-5 gas sensing',
+      'Flame-sensor based fire condition input',
+      'Servo flow-control response',
+      'Fan, LCD, RTC, microSD and dashboard integration',
+    ],
+    image_url: '/uploads/LPG and Natural-Gas Leakage Detection with Servo Flow Control.jpg',
+    diagram_url: '/uploads/LPG and Natural-Gas Leakage Detection with Servo Flow Control.jpg',
+  },
+  {
+    id: 6,
+    title: 'Smart Energy Meter with Priority Load Control',
+    status: 'Ongoing',
+    category: 'Smart Energy',
+    overview:
+      'Smart metering and control project using an ESP32 and energy-measurement hardware for load prioritisation and prepaid-logic concepts.',
+    tags: ['ESP32', 'PZEM-004T', 'CT', 'Relays', 'OLED/LCD', 'Load Prioritisation', 'Prepaid Logic'],
+    role: 'Embedded developer for measurement integration, display, relay control and priority-load logic',
+    key_features: [
+      'PZEM-004T and CT based measurement concept',
+      'Relay switching for priority loads',
+      'OLED/LCD display support',
+      'Prepaid logic workflow',
+      'ESP32-based control platform',
+    ],
+    image_url: '/uploads/Smart Energy Meter with Priority Load Control.jpg',
+    diagram_url: '/uploads/Smart Energy Meter with Priority Load Control.jpg',
+  },
+  {
+    id: 7,
+    title: 'Transmission-Line Monitoring for Grid Reliability',
+    status: 'Ongoing',
+    category: 'Power Systems',
+    overview:
+      'Simulation-focused project for monitoring transmission-line variables and alarm conditions relevant to grid reliability studies.',
+    tags: ['MATLAB/Simulink', 'Voltage', 'Current', 'Temperature', 'Sag', 'Vibration', 'Alarms'],
+    role: 'Simulation and monitoring-logic developer for line-parameter and alarm modelling',
+    key_features: [
+      'Voltage and current monitoring variables',
+      'Temperature, sag and vibration condition inputs',
+      'Alarm logic for reliability conditions',
+      'MATLAB/Simulink modelling workflow',
+      'Power-system documentation',
+    ],
+    image_url: '/uploads/Transmission-Line Monitoring for Grid Reliability.jpeg',
+    diagram_url: '/uploads/Transmission-Line Monitoring for Grid Reliability.jpeg',
+  },
+  {
+    id: 8,
+    title: 'Solar–Grid–Battery EV Charging Architecture',
+    status: 'Design Only',
+    category: 'Renewable Energy',
+    overview:
+      'Design-only architecture for integrating solar, grid and battery sources in an EV charging system concept.',
+    tags: ['Solar', 'Grid', 'Battery', 'EV Charging', 'Architecture', 'Design'],
+    role: 'Concept and architecture designer for source integration and system documentation',
+    key_features: [
+      'Solar-grid-battery integration concept',
+      'EV charging architecture documentation',
+      'Source-flow planning',
+      'Renewable-energy system design thinking',
+      'Clearly identified as design-only',
+    ],
+    image_url: '/uploads/Solar–Grid–Battery EV Charging Architecture.jpg',
+    diagram_url: '/uploads/Solar–Grid–Battery EV Charging Architecture.jpg',
+  },
+];
+
+export const MINI_PROJECTS = [
+  { id: 1, title: 'Smart Street Light Controller', area: 'Automation' },
+  { id: 2, title: 'Home Energy Usage Tracker', area: 'IoT' },
+  { id: 3, title: 'Temperature-Based Fan Speed Controller', area: 'Embedded' },
+  { id: 4, title: 'IR Remote Controlled Home Appliances', area: 'Automation' },
+  { id: 5, title: 'Digital Voltmeter with LCD Display', area: 'Instrumentation' },
+  { id: 6, title: 'Soil Moisture Monitoring System', area: 'IoT' },
+];
+
+export default PROJECTS;

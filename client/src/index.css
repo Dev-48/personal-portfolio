@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Rajdhani:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #071A38;
+  --color-blue: #1455D9;
+  --color-electric: #38A5FF;
+  --color-orange: #F97316;
+  --font-sans: "Inter", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Space Grotesk", "Rajdhani", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #071A38;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #071A38;
+  color: #ffffff;
+  font-family: var(--font-sans);
+}
+
+button, a, input, textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+section {
+  scroll-margin-top: 84px;
+}
+
+::selection {
+  background: #38A5FF;
+  color: #071A38;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
