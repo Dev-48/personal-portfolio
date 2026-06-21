@@ -162,7 +162,7 @@ export default function Footer() {
                   {PROFILE.full_name}
                 </span>
                 <span className="block text-sm text-cyan-300">
-                  Electrical Engineer
+                  Electrical Engineering Student & Project Developer
                 </span>
               </span>
             </a>

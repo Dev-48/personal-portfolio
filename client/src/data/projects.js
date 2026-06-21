@@ -116,7 +116,7 @@ const PROJECTS = [
   {
     id: 8,
     title: 'Solar–Grid–Battery EV Charging Architecture',
-    status: 'Design Only',
+    status: 'Concept Design',
     category: 'Renewable Energy',
     overview:
       'Design-only architecture for integrating solar, grid and battery sources in an EV charging system concept.',

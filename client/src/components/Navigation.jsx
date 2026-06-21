@@ -5,7 +5,7 @@ import { slugify, scrollTo, whatsappHref } from '../utils/helpers';
 
 const NAV_ITEMS = [
   'Home', 'About', 'Expertise', 'Projects',
-  'Experience', 'Education', 'Certifications', 'Services', 'Contact',
+  'Experience', 'Education','Memberships', 'Certifications', 'Services', 'Contact',
 ];
 
 export default function Navigation() {

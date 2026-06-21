@@ -6,7 +6,7 @@ export default function ServicesSection() {
   return (
     <section id="services" className="bg-slate-950 px-4 py-20 text-white sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        <SectionHeading kicker="Services" title="Legitimate support for technical projects">
+        <SectionHeading kicker="Services" title="Engineering Support for Practical Projects">
           Prototype, simulation, documentation and mentoring services for practical electrical and embedded systems work.
         </SectionHeading>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">

@@ -7,7 +7,7 @@ export default function EducationSection() {
   return (
     <section id="education" className="bg-slate-950 px-4 py-20 text-white sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        <SectionHeading kicker="Education" title="Academic background and memberships" />
+        <SectionHeading kicker="Education" title="Academic Background" />
 
         <div className="grid gap-5 lg:grid-cols-2">
           {EDUCATION.map((item) => (
@@ -24,14 +24,7 @@ export default function EducationSection() {
           ))}
         </div>
 
-        <div className="mt-8 rounded-[2rem] border border-white/10 bg-white/[0.04] p-6">
-          <h3 className="font-heading text-2xl font-bold">Memberships</h3>
-          <div className="mt-4 flex flex-wrap gap-3">
-            {PROFILE.memberships.map((m) => (
-              <span key={m} className="rounded-full bg-white/10 px-4 py-2 text-sm text-slate-200">{m}</span>
-            ))}
-          </div>
-        </div>
+        
       </div>
     </section>
   );

@@ -7,6 +7,7 @@ import ExpertiseSection from './components/ExpertiseSection';
 import ProjectsSection from './components/ProjectsSection';
 import ExperienceSection from './components/ExperienceSection';
 import EducationSection from './components/EducationSection';
+import MembershipsSection from "./components/MembershipsSection";
 import CertificationsSection from './components/CertificationsSection';
 import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
@@ -24,6 +25,7 @@ export default function App() {
         <ProjectsSection />
         <ExperienceSection />
         <EducationSection />
+        <MembershipsSection />
         <CertificationsSection />
         <ServicesSection />
         <ContactSection />
