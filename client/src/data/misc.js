@@ -8,15 +8,67 @@
 */
 
 export const EXPERIENCE = [
+   {
+  id: 1,
+  title: "Electrical Engineering Intern",
+  organisation: "Abtex International (Pvt.) Ltd.",
+  location: "Latifabad, Hyderabad, Sindh, Pakistan",
+  period: "Jul 2026",
+  duration: "1 Month",
+  type: "Paid Industrial Internship",
+  certificate_status: "Certificate pending",
+  description:
+    "Completed a paid internship with the electrical team, focusing on solar PV generation, battery energy storage, plant load behaviour and energy-saving opportunities.",
+  highlights: [
+    "Studied solar PV generation, inverter operation and battery energy storage system behaviour.",
+    "Observed industrial plant loads, grid interruptions, battery charging/discharging and solar utilisation.",
+    "Prepared weekly and final technical reports on solar generation enhancement and energy-saving opportunities.",
+    "Reviewed practical improvement areas including load scheduling, PV utilisation, cooling and operational efficiency.",
+  ],
+  skills: [
+    "Solar PV",
+    "Battery Energy Storage",
+    "Industrial Loads",
+    "Energy Analysis",
+    "Inverters",
+    "Technical Reporting",
+  ],
+},
+{
+  id: 2,
+  title: "Engineering Intern",
+  organisation: "Sui Southern Gas Company Limited – SSGC",
+  location: "Hyderabad, Sindh, Pakistan",
+  period: "Jun 2026 – Aug 2026",
+  duration: "6 Weeks",
+  type: "Industrial Internship",
+  certificate_status: "Certificate pending",
+  description:
+    "Completed an internship rotation across technical and operational departments including telecommunication, SCADA, power systems, HVAC, metering, IT, HSEQA, planning and customer-related departments.",
+  highlights: [
+    "Studied microwave communication systems, SCADA networks, RTU/HMI concepts and field communication equipment.",
+    "Observed powerhouse, generator, HVAC and electrical support systems.",
+    "Visited technical departments including metering, IT, HSEQA, planning, corrosion control and customer services.",
+    "Prepared a detailed internship report covering departmental learning and practical observations.",
+  ],
+  skills: [
+    "SCADA",
+    "Microwave Communication",
+    "Powerhouse",
+    "HVAC",
+    "Gas Metering",
+    "Industrial Systems",
+  ],
+},
   {
-    id: 1,
+    id: 3,
     title: "Power Systems Intern",
     organisation: "132 kV Qasimabad Grid Station – HESCO",
     location: "Hyderabad, Sindh, Pakistan",
     period: "Jul 2025 – Aug 2025",
     duration: "4 Weeks",
     type: "Industrial Internship",
-    certificate_url: "/certificate/8.jpeg",
+    certificate_url: "/certificate/16.jpeg",
     description:
       "Completed practical training in 132/11 kV grid-station operation, protection, switching and maintenance procedures.",
     highlights: [
@@ -35,14 +87,14 @@ export const EXPERIENCE = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "Electrical Engineering Intern",
     organisation: "Hyderabad Electric Supply Company – HESCO",
     location: "Hyderabad, Sindh, Pakistan",
     period: "Dec 2023 – Jan 2024",
     duration: "2 Weeks",
     type: "Industrial Internship",
-    certificate_url: "/certificate/9.jpeg",
+    certificate_url: "/certificate/17.jpeg",
     description:
       "Received field exposure in the offices of the Chief Engineer P&E and Superintending Engineer GSO at HESCO Hyderabad.",
     highlights: [
@@ -60,14 +112,14 @@ export const EXPERIENCE = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     title: "Engineering Intern",
     organisation: "Jamshoro Power Company Limited – JPCL, GENCO-I",
     location: "Jamshoro, Sindh, Pakistan",
     period: "Jun 2024 – Jul 2024",
     duration: "1 Month",
     type: "Power-Generation Internship",
-    certificate_url: "/certificate/10.jpeg",
+    certificate_url: "/certificate/18.jpeg",
     description:
       "Completed industrial training covering thermal power-plant operation, electrical support systems, safety and maintenance practices.",
     highlights: [
@@ -155,7 +207,7 @@ export const PROFESSIONAL_MEMBERSHIPS = [
       "Institute of Electrical and Electronics Engineers – Karachi Section",
     period: "2024 – Present",
     status: "Student Member",
-    certificate_url: "/certificate/5.jpg",
+    certificate_url: "/certificate/19.jpg",
     note:
       "Professional membership demonstrating commitment to engineering, technology and continuous professional development.",
   },
@@ -165,7 +217,7 @@ export const PROFESSIONAL_MEMBERSHIPS = [
     organisation: "IEEE Power & Energy Society",
     period: "2024 – Present",
     status: "Student Member",
-    certificate_url: "/certificate/6.jpg",
+    certificate_url: "/certificate/20.jpg",
     note:
       "Membership focused on electric-power generation, transmission, distribution, renewable energy and smart-grid technologies.",
   },
@@ -175,7 +227,7 @@ export const PROFESSIONAL_MEMBERSHIPS = [
     organisation: "IEEE Industry Applications Society",
     period: "2024 – Present",
     status: "Student Member",
-    certificate_url: "/certificate/4.jpg",
+    certificate_url: "/certificate/21.jpg",
     note:
       "Membership supporting the practical application of electrical and electronic systems in industrial environments.",
   },
@@ -185,7 +237,7 @@ export const PROFESSIONAL_MEMBERSHIPS = [
     organisation: "IEEE Circuits and Systems Society",
     period: "2024 – Present",
     status: "Student Member",
-    certificate_url: "/certificate/3.jpg",
+    certificate_url: "/certificate/22.jpg",
     note:
       "Membership focused on circuits, signal processing, embedded systems and electronic-system development.",
   },
@@ -202,78 +254,75 @@ export const PROFESSIONAL_MEMBERSHIPS = [
 export const CERTIFICATIONS = [
   {
     id: 1,
+    title: "IEEE SSCS Arduino Contest Micro-Controller Proficiency Program",
+    issuer: "IEEE Solid-State Circuits Society",
+    category: "Technical Proficiency",
+    year: "2026",
+    certificate_url: "/certificate/1.png",
+    note:
+      "Successfully completed the IEEE SSCS Arduino Contest Micro-Controller Proficiency Program, demonstrating proficiency in combining hardware and software to interface a microcontroller with sensors, actuators and I/O.",
+  },
+  {
+    id: 2,
+    title: "Arduino Innovation Hackathon 2026",
+    issuer:
+      "Department of Electronics Engineering, MUET Jamshoro with IEEE SSCS Arduino Contest partners",
+    category: "Hackathon and Innovation",
+    year: "2026",
+    certificate_url: "/certificate/2.jpg",
+    note:
+      "Participated in the Arduino Innovation Hackathon 2026, focused on Arduino-based innovation, embedded systems and practical prototype development.",
+  },
+  {
+    id: 3,
+    title: "Google Introduction to AI",
+    issuer: "Google through Coursera",
+    category: "AI Training",
+    year: "2026",
+    certificate_url: "/certificate/3.jpg",
+    note:
+      "Completed the Introduction to AI course authorized by Google and offered through Coursera on 5 August 2026.",
+  },
+  {
+    id: 4,
     title: "MATLAB Onramp Course Completion",
     issuer: "MathWorks Training Services",
     category: "Technical Training",
     year: "2025",
-    certificate_url: "/certificate/17.jpg",
+    certificate_url: "/certificate/4.jpg",
     note:
       "Completed 100% of the self-paced MATLAB Onramp training course on 4 March 2025.",
   },
   {
-    id: 2,
+    id: 5,
     title: "Poster Presenter – EESD 2026",
     issuer:
       "Energy and Environmental Engineering Research Group, MUET Jamshoro",
     category: "Research Presentation",
     year: "2026",
-    certificate_url: "/certificate/2.jpeg",
+    certificate_url: "/certificate/5.jpeg",
     note:
-      "Presented a research poster at the 8th International Conference on Energy, Environment and Sustainable Development on 25–26 March 2026.",
+      "Presented a research poster at the 8th International Conference on Energy, Environment and Sustainable Development, held on 25–26 March 2026.",
   },
   {
-    id: 3,
-    title:
-      "Idea Generation Workshop on Clean Energy and Climate-Resilient Housing",
+    id: 6,
+    title: "Idea Generation Workshop on Clean Energy and Climate-Resilient Housing",
     issuer: "Research and Development Foundation",
     category: "Energy and Sustainability Workshop",
     year: "2026",
-    certificate_url: "/certificate/1.jpeg",
+    certificate_url: "/certificate/6.jpeg",
     note:
       "Participated in an idea-generation workshop focused on clean energy and climate-resilient housing in rural Sindh.",
   },
   {
-    id: 4,
-    title: "Digital Marketing Training",
-    issuer:
-      "DigiSkills.pk, Ignite and Virtual University of Pakistan",
-    category: "Professional Training",
-    year: "2024",
-    certificate_url: "/certificate/19.jpg",
-    note:
-      "Completed the Digital Marketing course under DigiSkills Training Program DSTP 2.0, Batch 07.",
-  },
-  {
-    id: 5,
-    title: "Freelancing Training",
-    issuer:
-      "DigiSkills.pk, Ignite and Virtual University of Pakistan",
-    category: "Professional Training",
-    year: "2024",
-    certificate_url: "/certificate/18.jpg",
-    note:
-      "Completed the Freelancing course under DigiSkills Training Program DSTP 2.0, Batch 07.",
-  },
-  {
-    id: 6,
-    title: "Technical Session on Geothermal Energy",
-    issuer: "IEEE PES Karachi Section and IEEE PES MUET Chapter",
-    category: "Technical Seminar",
-    year: "2024",
-    certificate_url: "/certificate/11.jpeg",
-    note:
-      "Participated in a technical session on geothermal-energy extraction and sustainable-power infrastructure planning.",
-  },
-  {
     id: 7,
-    title: "IEEE Day 2024 – Research and Innovation with IoT & AI",
-    issuer:
-      "IEEE ComSoc Karachi Chapter and IEEE PELS Karachi Chapter",
-    category: "Technology Event",
+    title: "IoT and Startup Culture Workshop",
+    issuer: "QS ImpACT Pakistan and Indus Techetronics",
+    category: "IoT Workshop",
     year: "2024",
-    certificate_url: "/certificate/12.jpeg",
+    certificate_url: "/certificate/7.jpeg",
     note:
-      "Participated in an IEEE Day event focused on research organisation, innovation, IoT and artificial intelligence.",
+      "Completed a three-hour workshop covering the IoT roadmap, practical knowledge, IoT ecosystem and IoT product development.",
   },
   {
     id: 8,
@@ -282,47 +331,78 @@ export const CERTIFICATIONS = [
       "IEEE PES Karachi Section and IEEE PES MUET Student Branch Chapter",
     category: "Power-System Seminar",
     year: "2024",
-    certificate_url: "/certificate/16.jpeg",
+    certificate_url: "/certificate/8.jpeg",
     note:
-      "Attended a technical seminar on condition-based equipment maintenance and its importance in power-system reliability.",
+      "Attended a technical seminar on condition-based maintenance of equipment and its importance in the power sector.",
   },
   {
     id: 9,
-    title: "IoT and Startup Culture Workshop",
-    issuer: "QS ImpACT Pakistan and Indus Techetronics",
-    category: "IoT Workshop",
+    title: "Technical Session on Geothermal Energy",
+    issuer: "IEEE PES Karachi Section and IEEE PES MUET Chapter",
+    category: "Technical Seminar",
     year: "2024",
-    certificate_url: "/certificate/14.jpeg",
+    certificate_url: "/certificate/9.jpeg",
     note:
-      "Completed a three-hour workshop covering the IoT roadmap, practical knowledge, IoT ecosystems and product development.",
+      "Participated in a technical session on geothermal energy extraction and sustainable power infrastructure planning.",
   },
   {
     id: 10,
+    title: "IEEE Day 2024 – Research and Innovation with IoT & AI",
+    issuer:
+      "IEEE ComSoc Karachi Chapter and IEEE PELS Karachi Chapter",
+    category: "Technology Event",
+    year: "2024",
+    certificate_url: "/certificate/10.jpeg",
+    note:
+      "Participated in the IEEE Day 2024 event focused on research, innovation, IoT and artificial intelligence.",
+  },
+  {
+    id: 11,
+    title: "Digital Marketing Training",
+    issuer: "DigiSkills.pk, Ignite and Virtual University of Pakistan",
+    category: "Professional Training",
+    year: "2024",
+    certificate_url: "/certificate/11.jpg",
+    note:
+      "Completed the Digital Marketing course under DigiSkills Training Program DSTP 2.0, Batch 07.",
+  },
+  {
+    id: 12,
+    title: "Freelancing Training",
+    issuer: "DigiSkills.pk, Ignite and Virtual University of Pakistan",
+    category: "Professional Training",
+    year: "2024",
+    certificate_url: "/certificate/12.jpg",
+    note:
+      "Completed the Freelancing course under DigiSkills Training Program DSTP 2.0, Batch 07.",
+  },
+  {
+    id: 13,
     title: "MUET Model United Nations 2025 – Delegate",
     issuer: "MUET Model United Nations Society",
     category: "Leadership and Diplomacy",
     year: "2025",
-    certificate_url: "/certificate/7.jpg",
+    certificate_url: "/certificate/13.jpg",
     note:
       "Represented the Netherlands as a delegate in the SPECPOL committee at MUET Model United Nations 2025.",
   },
   {
-    id: 11,
+    id: 14,
     title: "MUET Model United Nations 2023 – Participant",
     issuer: "MUET Model United Nations Society",
     category: "Leadership and Diplomacy",
     year: "2023",
-    certificate_url: "/certificate/15.jpeg",
+    certificate_url: "/certificate/14.jpeg",
     note:
       "Participated in MUET Model United Nations 2023, held from 10–12 March 2023.",
   },
   {
-    id: 12,
+    id: 15,
     title: "MASSTIVAL 2.0 – Certificate of Participation",
     issuer: "Mehran Architecture Students’ Society, MUET",
     category: "Co-Curricular Activity",
     year: "2024",
-    certificate_url: "/certificate/13.jpeg",
+    certificate_url: "/certificate/15.jpeg",
     note:
       "Participated in MASSTIVAL 2.0 at Mehran University of Engineering and Technology on 7 March 2024.",
   },
@@ -364,7 +444,7 @@ export const SERVICES = [
       "Prototype testing",
     ],
   },
-  {
+  { 
     id: 2,
     title: "Embedded Firmware & IoT Development",
     category: "Embedded Systems",
