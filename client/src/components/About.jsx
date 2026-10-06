@@ -113,7 +113,7 @@ export default function About() {
           <div className="grid auto-rows-fr gap-4 sm:grid-cols-2">
             {Object.entries(PROFILE.quick_info).map(([label, value]) => {
               const Icon = INFO_ICONS[label] || GraduationCap;
-              const isWide = label === "Specialization";
+              const isWide = label === "Focus Areas";
 
               return (
                 <article

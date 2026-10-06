@@ -167,7 +167,7 @@ export default function Hero() {
           <div className="relative h-[570px] w-full max-w-[500px] sm:h-[700px] sm:max-w-[600px] lg:h-[830px] lg:max-w-[700px] xl:h-[880px]">
             <img
               src="/profile.png"
-              alt={`${PROFILE.full_name}, Electrical Engineering student`}
+              alt={`${PROFILE.full_name}, FINAL-YEAR ELECTRICAL ENGINEERING STUDENT`}
               loading="eager"
               fetchPriority="high"
               draggable="false"

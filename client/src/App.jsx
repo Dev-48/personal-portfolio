@@ -1,3 +1,5 @@
+// Last updated: 05 October 2026
+
 import './index.css';
 
 import Navigation from './components/Navigation';
@@ -7,7 +9,7 @@ import ExpertiseSection from './components/ExpertiseSection';
 import ProjectsSection from './components/ProjectsSection';
 import ExperienceSection from './components/ExperienceSection';
 import EducationSection from './components/EducationSection';
-import MembershipsSection from "./components/MembershipsSection";
+import MembershipsSection from './components/MembershipsSection';
 import CertificationsSection from './components/CertificationsSection';
 import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
@@ -18,6 +20,7 @@ export default function App() {
   return (
     <>
       <Navigation />
+
       <main>
         <Hero />
         <About />
@@ -30,6 +33,7 @@ export default function App() {
         <ServicesSection />
         <ContactSection />
       </main>
+
       <Footer />
       <BackToTop />
     </>

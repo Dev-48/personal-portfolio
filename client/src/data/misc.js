@@ -1,81 +1,91 @@
+// Last updated: 05 October 2026
 
 /*
 |--------------------------------------------------------------------------
 | EXPERIENCE
 |--------------------------------------------------------------------------
-| Internship certificates belong in this section because they verify
-| professional and industrial experience.
+| Internship certificates remain in Experience because they verify
+| professional and industrial training.
 */
 
 export const EXPERIENCE = [
-   {
-  id: 1,
-  title: "Electrical Engineering Intern",
-  organisation: "Abtex International (Pvt.) Ltd.",
-  location: "Latifabad, Hyderabad, Sindh, Pakistan",
-  period: "Jul 2026",
-  duration: "1 Month",
-  type: "Paid Industrial Internship",
-  certificate_status: "Certificate pending",
-  description:
-    "Completed a paid internship with the electrical team, focusing on solar PV generation, battery energy storage, plant load behaviour and energy-saving opportunities.",
-  highlights: [
-    "Studied solar PV generation, inverter operation and battery energy storage system behaviour.",
-    "Observed industrial plant loads, grid interruptions, battery charging/discharging and solar utilisation.",
-    "Prepared weekly and final technical reports on solar generation enhancement and energy-saving opportunities.",
-    "Reviewed practical improvement areas including load scheduling, PV utilisation, cooling and operational efficiency.",
-  ],
-  skills: [
-    "Solar PV",
-    "Battery Energy Storage",
-    "Industrial Loads",
-    "Energy Analysis",
-    "Inverters",
-    "Technical Reporting",
-  ],
-},
-{
-  id: 2,
-  title: "Engineering Intern",
-  organisation: "Sui Southern Gas Company Limited – SSGC",
-  location: "Hyderabad, Sindh, Pakistan",
-  period: "Jun 2026 – Aug 2026",
-  duration: "6 Weeks",
-  type: "Industrial Internship",
-  certificate_status: "Certificate pending",
-  description:
-    "Completed an internship rotation across technical and operational departments including telecommunication, SCADA, power systems, HVAC, metering, IT, HSEQA, planning and customer-related departments.",
-  highlights: [
-    "Studied microwave communication systems, SCADA networks, RTU/HMI concepts and field communication equipment.",
-    "Observed powerhouse, generator, HVAC and electrical support systems.",
-    "Visited technical departments including metering, IT, HSEQA, planning, corrosion control and customer services.",
-    "Prepared a detailed internship report covering departmental learning and practical observations.",
-  ],
-  skills: [
-    "SCADA",
-    "Microwave Communication",
-    "Powerhouse",
-    "HVAC",
-    "Gas Metering",
-    "Industrial Systems",
-  ],
-},
+  {
+    id: 1,
+    title: "Electrical Engineering Intern – Solar PV & BESS",
+    organisation: "Abtex International (Pvt.) Ltd.",
+    location: "Latifabad, Hyderabad, Sindh, Pakistan",
+    period: "1 Jul 2026 – 31 Jul 2026",
+    duration: "1 Month",
+    type: "Paid Industrial Internship",
+    certificate_url: "/certificate/abtex-internship-2026.jpeg",
+    description:
+      "Completed a one-month paid internship with the Electrical Team, gaining practical exposure to Solar PV generation, BESS/PCS operation, LT distribution, grid import/export monitoring and industrial energy analysis.",
+    highlights: [
+      "Studied Solar PV generation, inverter operation and BESS/PCS behaviour.",
+      "Reviewed PV–grid–battery power flow, battery charging/discharging and plant-load behaviour.",
+      "Observed LT distribution and grid import/export monitoring.",
+      "Analysed solar utilisation and practical energy-saving opportunities.",
+      "Prepared weekly and final technical reports based on operating observations and plant data.",
+    ],
+    skills: [
+      "Solar PV",
+      "BESS/PCS",
+      "LT Distribution",
+      "Grid Import/Export",
+      "Industrial Energy Analysis",
+      "Inverters",
+      "Technical Reporting",
+    ],
+  },
+
+  {
+    id: 2,
+    title: "Industrial Intern – Electrical Engineering",
+    organisation: "Sui Southern Gas Company Limited – SSGC",
+    location: "Hyderabad, Sindh, Pakistan",
+    period: "29 Jun 2026 – 10 Aug 2026",
+    duration: "6 Weeks",
+    type: "Industrial Internship",
+    certificate_url: "/certificate/ssgc-internship-2026.jpg",
+    description:
+      "Completed a six-week industrial internship at Sui Southern Gas Company Limited, gaining practical exposure to utility engineering systems including telecommunication, SCADA and instrumentation, power systems, HVAC, gas metering and industrial operations.",
+    highlights: [
+      "Studied microwave communication systems, antennas, E1 multiplexing and field communication equipment.",
+      "Observed SCADA networks, SCADAPack RTUs, HMI concepts, radio telemetry and process instrumentation.",
+      "Observed generator, powerhouse, three-phase distribution and electrical support systems.",
+      "Gained exposure to HVAC equipment, VFDs, pumps and motor-control applications.",
+      "Studied gas-meter testing, industrial safety and supporting utility departments.",
+      "Prepared technical observations and internship documentation.",
+    ],
+    skills: [
+      "SCADA",
+      "Instrumentation",
+      "Microwave Communication",
+      "RTU/HMI",
+      "Power Systems",
+      "HVAC",
+      "Gas Metering",
+      "Industrial Systems",
+    ],
+  },
+
   {
     id: 3,
-    title: "Power Systems Intern",
-    organisation: "132 kV Qasimabad Grid Station – HESCO",
-    location: "Hyderabad, Sindh, Pakistan",
+    title: "Power Systems Intern – 132 kV Qasimabad Grid Station",
+    organisation: "Hyderabad Electric Supply Company – HESCO",
+    location: "Qasimabad, Hyderabad, Sindh, Pakistan",
     period: "Jul 2025 – Aug 2025",
     duration: "4 Weeks",
     type: "Industrial Internship",
     certificate_url: "/certificate/16.jpeg",
     description:
-      "Completed practical training in 132/11 kV grid-station operation, protection, switching and maintenance procedures.",
+      "Completed practical training at the 132 kV Qasimabad Grid Station, gaining exposure to 132/11 kV grid-station operation, protection, switching and maintenance procedures.",
     highlights: [
       "Observed 132/11 kV grid-station equipment, operation and protection systems.",
-      "Studied power transformers, CTs, PTs, SF₆ circuit breakers, protection relays, isolators and busbars.",
-      "Reviewed single-line diagrams, feeder operation, load management and switching procedures.",
-      "Prepared a technical internship report based on grid-station observations.",
+      "Studied power transformers, CTs, PTs, SF₆ circuit breakers, VCBs, protection relays, isolators and busbars.",
+      "Reviewed single-line diagrams, feeder operation and load-management procedures.",
+      "Observed switching practices and high-voltage safety procedures.",
+      "Prepared technical internship documentation based on grid-station observations.",
     ],
     skills: [
       "Grid Stations",
@@ -84,8 +94,10 @@ export const EXPERIENCE = [
       "Single-Line Diagrams",
       "Load Management",
       "Switching Procedures",
+      "High-Voltage Safety",
     ],
   },
+
   {
     id: 4,
     title: "Electrical Engineering Intern",
@@ -111,9 +123,10 @@ export const EXPERIENCE = [
       "Conductor Selection",
     ],
   },
+
   {
     id: 5,
-    title: "Engineering Intern",
+    title: "Electrical Engineering Intern – Thermal Power Generation",
     organisation: "Jamshoro Power Company Limited – JPCL, GENCO-I",
     location: "Jamshoro, Sindh, Pakistan",
     period: "Jun 2024 – Jul 2024",
@@ -121,19 +134,22 @@ export const EXPERIENCE = [
     type: "Power-Generation Internship",
     certificate_url: "/certificate/18.jpeg",
     description:
-      "Completed industrial training covering thermal power-plant operation, electrical support systems, safety and maintenance practices.",
+      "Completed industrial training covering thermal power generation, plant electrical systems, control-room monitoring, safety and maintenance practices.",
     highlights: [
-      "Observed thermal power-plant operation and electrical support systems.",
+      "Studied the thermal power-generation process and major plant systems.",
+      "Observed steam turbines, generators, transformers and electrical support equipment.",
+      "Gained exposure to control-room monitoring, electrical panels and instrumentation.",
       "Studied plant maintenance procedures and troubleshooting practices.",
-      "Learned industrial safety requirements followed in power-generation facilities.",
-      "Developed practical understanding of generation-side electrical systems.",
+      "Developed practical understanding of utility-scale electrical generation.",
     ],
     skills: [
       "Power Generation",
       "Thermal Power Plant",
+      "Generators",
+      "Transformers",
+      "Control Room",
       "Industrial Maintenance",
       "Plant Safety",
-      "Troubleshooting",
     ],
   },
 ];
@@ -155,7 +171,7 @@ export const EDUCATION = [
     period: "2022 – 2026",
     status: "Final Year – 8th Semester",
     detail:
-      "Focused on power systems, renewable energy, electrical machines, control systems, embedded electronics and IoT-based energy applications.",
+      "Focused on power systems, renewable energy, electrical machines, control systems, power electronics, embedded systems and IoT-based engineering applications.",
     subjects: [
       "Power Systems",
       "Electrical Machines",
@@ -195,8 +211,8 @@ export const EDUCATION = [
 |--------------------------------------------------------------------------
 | PROFESSIONAL MEMBERSHIPS
 |--------------------------------------------------------------------------
-| IEEE membership certificates should appear here instead of the general
-| Certifications section.
+| Membership certificates remain here and are not duplicated under general
+| certifications.
 */
 
 export const PROFESSIONAL_MEMBERSHIPS = [
@@ -247,21 +263,35 @@ export const PROFESSIONAL_MEMBERSHIPS = [
 |--------------------------------------------------------------------------
 | CERTIFICATIONS, TRAINING AND PARTICIPATION
 |--------------------------------------------------------------------------
-| Internship and membership certificates have been removed from this array
-| to prevent duplicate content.
+| Internship and membership certificates are intentionally excluded here to
+| avoid duplicate content.
 */
 
 export const CERTIFICATIONS = [
   {
     id: 1,
-    title: "IEEE SSCS Arduino Contest Micro-Controller Proficiency Program",
+    title:
+      "IEEE SSCS Arduino Contest Micro-Controller Proficiency Program",
     issuer: "IEEE Solid-State Circuits Society",
     category: "Technical Proficiency",
     year: "2026",
     certificate_url: "/certificate/1.png",
     note:
-      "Successfully completed the IEEE SSCS Arduino Contest Micro-Controller Proficiency Program, demonstrating proficiency in combining hardware and software to interface a microcontroller with sensors, actuators and I/O.",
+      "Successfully completed the IEEE SSCS Arduino Contest Micro-Controller Proficiency Program, demonstrating proficiency in combining hardware and software to interface a microcontroller with external sensors, actuators and I/O.",
   },
+
+  {
+    id: 16,
+    title: "2026 IEEE SSCS Arduino Contest – Certificate of Participation",
+    issuer: "IEEE Solid-State Circuits Society",
+    category: "Competition Participation",
+    year: "2026",
+    certificate_url:
+      "/certificate/ieee-sscs-arduino-contest-2026.jpg",
+    note:
+      "Received a Certificate of Participation for successfully participating in the 2026 IEEE SSCS Arduino Contest organized by the IEEE Solid-State Circuits Society.",
+  },
+
   {
     id: 2,
     title: "Arduino Innovation Hackathon 2026",
@@ -273,6 +303,7 @@ export const CERTIFICATIONS = [
     note:
       "Participated in the Arduino Innovation Hackathon 2026, focused on Arduino-based innovation, embedded systems and practical prototype development.",
   },
+
   {
     id: 3,
     title: "Google Introduction to AI",
@@ -283,6 +314,7 @@ export const CERTIFICATIONS = [
     note:
       "Completed the Introduction to AI course authorized by Google and offered through Coursera on 5 August 2026.",
   },
+
   {
     id: 4,
     title: "MATLAB Onramp Course Completion",
@@ -293,6 +325,7 @@ export const CERTIFICATIONS = [
     note:
       "Completed 100% of the self-paced MATLAB Onramp training course on 4 March 2025.",
   },
+
   {
     id: 5,
     title: "Poster Presenter – EESD 2026",
@@ -304,9 +337,11 @@ export const CERTIFICATIONS = [
     note:
       "Presented a research poster at the 8th International Conference on Energy, Environment and Sustainable Development, held on 25–26 March 2026.",
   },
+
   {
     id: 6,
-    title: "Idea Generation Workshop on Clean Energy and Climate-Resilient Housing",
+    title:
+      "Idea Generation Workshop on Clean Energy and Climate-Resilient Housing",
     issuer: "Research and Development Foundation",
     category: "Energy and Sustainability Workshop",
     year: "2026",
@@ -314,6 +349,7 @@ export const CERTIFICATIONS = [
     note:
       "Participated in an idea-generation workshop focused on clean energy and climate-resilient housing in rural Sindh.",
   },
+
   {
     id: 7,
     title: "IoT and Startup Culture Workshop",
@@ -324,6 +360,7 @@ export const CERTIFICATIONS = [
     note:
       "Completed a three-hour workshop covering the IoT roadmap, practical knowledge, IoT ecosystem and IoT product development.",
   },
+
   {
     id: 8,
     title: "Condition-Based Maintenance in the Power Sector",
@@ -335,6 +372,7 @@ export const CERTIFICATIONS = [
     note:
       "Attended a technical seminar on condition-based maintenance of equipment and its importance in the power sector.",
   },
+
   {
     id: 9,
     title: "Technical Session on Geothermal Energy",
@@ -345,6 +383,7 @@ export const CERTIFICATIONS = [
     note:
       "Participated in a technical session on geothermal energy extraction and sustainable power infrastructure planning.",
   },
+
   {
     id: 10,
     title: "IEEE Day 2024 – Research and Innovation with IoT & AI",
@@ -356,26 +395,31 @@ export const CERTIFICATIONS = [
     note:
       "Participated in the IEEE Day 2024 event focused on research, innovation, IoT and artificial intelligence.",
   },
+
   {
     id: 11,
     title: "Digital Marketing Training",
-    issuer: "DigiSkills.pk, Ignite and Virtual University of Pakistan",
+    issuer:
+      "DigiSkills.pk, Ignite and Virtual University of Pakistan",
     category: "Professional Training",
     year: "2024",
     certificate_url: "/certificate/11.jpg",
     note:
       "Completed the Digital Marketing course under DigiSkills Training Program DSTP 2.0, Batch 07.",
   },
+
   {
     id: 12,
     title: "Freelancing Training",
-    issuer: "DigiSkills.pk, Ignite and Virtual University of Pakistan",
+    issuer:
+      "DigiSkills.pk, Ignite and Virtual University of Pakistan",
     category: "Professional Training",
     year: "2024",
     certificate_url: "/certificate/12.jpg",
     note:
       "Completed the Freelancing course under DigiSkills Training Program DSTP 2.0, Batch 07.",
   },
+
   {
     id: 13,
     title: "MUET Model United Nations 2025 – Delegate",
@@ -386,6 +430,7 @@ export const CERTIFICATIONS = [
     note:
       "Represented the Netherlands as a delegate in the SPECPOL committee at MUET Model United Nations 2025.",
   },
+
   {
     id: 14,
     title: "MUET Model United Nations 2023 – Participant",
@@ -396,6 +441,7 @@ export const CERTIFICATIONS = [
     note:
       "Participated in MUET Model United Nations 2023, held from 10–12 March 2023.",
   },
+
   {
     id: 15,
     title: "MASSTIVAL 2.0 – Certificate of Participation",
@@ -444,7 +490,8 @@ export const SERVICES = [
       "Prototype testing",
     ],
   },
-  { 
+
+  {
     id: 2,
     title: "Embedded Firmware & IoT Development",
     category: "Embedded Systems",
@@ -458,6 +505,7 @@ export const SERVICES = [
       "Data logging and alerts",
     ],
   },
+
   {
     id: 3,
     title: "MATLAB/Simulink Modelling",
@@ -472,6 +520,7 @@ export const SERVICES = [
       "Performance analysis",
     ],
   },
+
   {
     id: 4,
     title: "Circuit Diagrams & Technical Documentation",
@@ -486,6 +535,7 @@ export const SERVICES = [
       "Research posters and presentations",
     ],
   },
+
   {
     id: 5,
     title: "Hardware Testing & Troubleshooting",

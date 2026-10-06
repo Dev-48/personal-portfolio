@@ -1,8 +1,12 @@
+// Last updated: 06 October 2026
+
 export const PROJECTS = [
   {
     id: 1,
-    title: "KitchenGuard – ESP32-Based Smart Kitchen Safety & Automatic Response System",
+    title:
+      "KitchenGuard – ESP32-Based Smart Kitchen Safety & Automatic Response System",
     status: "Completed",
+    project_type: "Hardware Prototype",
     category: "Safety IoT",
     overview:
       "An ESP32-based smart kitchen safety prototype designed to monitor kitchen conditions and respond automatically to unsafe cooking situations using sensors, alerts, ventilation control, OLED display and a Wi-Fi dashboard.",
@@ -31,17 +35,22 @@ export const PROJECTS = [
     ],
     image_url: "/uploads/kitchenguard-hardware-1.jpeg",
     diagram_url: "/uploads/kitchenguard-circuit-diagram.jpg",
+    oled_url: "/uploads/kitchenguard-oled.jpg",
     dashboard_url: "/uploads/kitchenguard-dashboard.png",
     gallery: [
       "/uploads/kitchenguard-hardware-1.jpeg",
       "/uploads/kitchenguard-circuit-diagram.jpg",
+      "/uploads/kitchenguard-oled.jpg",
       "/uploads/kitchenguard-dashboard.png",
     ],
   },
+
   {
     id: 2,
-    title: "Industrial Exhaust-Air Energy Recovery Using Hybrid VAWT–PMSG",
+    title:
+      "Industrial Exhaust-Air Energy Recovery Using Hybrid VAWT–PMSG",
     status: "Ongoing",
+    project_type: "Final Year Project / Research & Simulation",
     category: "Renewable Energy",
     overview:
       "Final-year project focused on recovering usable electrical energy from industrial exhaust-air streams using a hybrid vertical-axis wind turbine coupled with a permanent-magnet synchronous generator.",
@@ -56,22 +65,26 @@ export const PROJECTS = [
       "Energy Recovery",
     ],
     role:
-      "FYP electrical systems developer focused on simulation, power-electronics chain, MPPT logic, feasibility analysis, system diagrams and technical documentation.",
+      "FYP electrical systems developer focused on airflow and feasibility assessment, MATLAB/Simulink modelling, the power-electronics conversion chain, MPPT logic, battery integration, system diagrams and technical documentation.",
     key_features: [
       "Industrial exhaust-air energy recovery concept",
       "Hybrid VAWT and PMSG generation chain",
+      "MATLAB/Simulink system modelling",
       "Rectifier, DC-link and DC–DC converter modelling",
-      "P&O MPPT-based extraction logic",
-      "Battery storage interface concept",
+      "P&O MPPT-based energy-extraction logic",
+      "Battery storage integration",
       "Pressure-loss and net-power feasibility analysis",
     ],
     image_url: "/uploads/industrial-exhaust-air-energy-recovery.jpg",
     diagram_url: "/uploads/industrial-exhaust-air-energy-recovery.jpg",
   },
+
   {
     id: 3,
-    title: "IoT-Based Smart Energy Management with Theft Detection Using Solar and Grid",
+    title:
+      "IoT-Based Smart Energy Management with Theft Detection Using Solar and Grid",
     status: "Completed",
+    project_type: "Hardware Prototype",
     category: "Smart Energy",
     overview:
       "A dual-source smart energy management prototype that combines solar and grid supply with automatic transfer switching, current/voltage sensing, theft detection and real-time dashboard monitoring.",
@@ -95,6 +108,7 @@ export const PROJECTS = [
       "Current sensing using ACS712",
       "Theft detection through abnormal current monitoring",
       "LCD display and Wi-Fi dashboard monitoring",
+      "Hardware testing against electrical measurements",
     ],
     image_url: "/uploads/smart-energy-real-hardware.jpg",
     diagram_url: "/uploads/smart-energy-circuit-diagram.jpg",
@@ -104,10 +118,12 @@ export const PROJECTS = [
       "/uploads/smart-energy-management-system.jpeg",
     ],
   },
+
   {
     id: 4,
     title: "Automatic Solar Panel Cleaning System",
     status: "Completed",
+    project_type: "Hardware Prototype",
     category: "Renewable Energy",
     overview:
       "An automated solar-panel cleaning prototype using an Arduino-based control system, chain-drive mechanism, bidirectional motor control, water pump, RTC scheduling and limit-switch protection.",
@@ -122,14 +138,14 @@ export const PROJECTS = [
       "Solar Panel",
     ],
     role:
-      "Hardware integration and Arduino control developer for cleaning sequence, motor direction, pump operation, Bluetooth control and scheduled automation.",
+      "Hardware integration and Arduino control developer responsible for the cleaning sequence, motor direction, pump operation, Bluetooth control and scheduled automation.",
     key_features: [
       "Timed cleaning using DS3231 RTC",
       "Bidirectional gear-motor control using BTS7960 driver",
       "Bluetooth manual control using HC-05",
       "Limit switches for travel boundary protection",
       "Relay-based water-pump control",
-      "Real hardware fabrication and testing",
+      "Real hardware fabrication, integration and testing",
     ],
     image_url: "/uploads/solar-cleaning-hardware.jpeg",
     diagram_url: "/uploads/solar-cleaning-circuit-diagram.jpg",
@@ -138,10 +154,13 @@ export const PROJECTS = [
       "/uploads/solar-cleaning-circuit-diagram.jpg",
     ],
   },
+
   {
     id: 5,
-    title: "LPG and Natural-Gas Leakage Detection with Servo Flow Control",
+    title:
+      "LPG and Natural-Gas Leakage Detection with Servo Flow Control",
     status: "Completed",
+    project_type: "Contract Hardware Prototype",
     category: "Safety IoT",
     overview:
       "A contract-based safety prototype for LPG, natural-gas and fire detection with automatic servo-actuated flow control, ventilation, alarm response, LCD display, event logging and web monitoring.",
@@ -160,20 +179,23 @@ export const PROJECTS = [
     role:
       "Contract prototype developer responsible for sensing, state logic, actuator control, display, logging, dashboard integration, soldering, calibration and testing.",
     key_features: [
-      "SAFE, WARNING, GAS LEAK and FIRE states",
+      "SAFE, WARNING, GAS LEAK and FIRE operating states",
       "MQ-2 and MQ-5 gas sensing",
-      "Flame-sensor based fire condition input",
+      "Flame-sensor-based fire condition input",
       "Servo-based gas-flow control demonstration",
       "Fan, buzzer and LED alarm response",
       "LCD, RTC, microSD and dashboard integration",
+      "Hardware calibration and system testing",
     ],
     image_url: "/uploads/lpg-natural-gas-hardware.jpg",
     diagram_url: "/uploads/lpg-natural-gas-leakage-detection.jpg",
   },
+
   {
     id: 6,
     title: "Smart Energy Meter with Priority Load Control",
     status: "Ongoing",
+    project_type: "Embedded / Smart-Energy Project",
     category: "Smart Energy",
     overview:
       "A smart metering and load-management project using ESP32 and energy-measurement hardware to monitor electrical parameters and disconnect low-priority loads during overload conditions.",
@@ -196,13 +218,17 @@ export const PROJECTS = [
       "Prepaid logic workflow",
       "OLED/LCD display support",
     ],
-    image_url: "/uploads/smart-energy-meter-priority-load-control.jpg",
-    diagram_url: "/uploads/smart-energy-meter-priority-load-control.jpg",
+    image_url:
+      "/uploads/smart-energy-meter-priority-load-control.jpg",
+    diagram_url:
+      "/uploads/smart-energy-meter-priority-load-control.jpg",
   },
+
   {
     id: 7,
     title: "ECG Monitoring System",
     status: "Completed",
+    project_type: "Contract Hardware Prototype",
     category: "Biomedical Electronics",
     overview:
       "A contract-based biomedical electronics project developed for a LUMHS student to acquire and display ECG signal behaviour using sensor interfacing, signal observation and hardware testing.",
@@ -226,63 +252,142 @@ export const PROJECTS = [
     image_url: "/uploads/ecg-monitoring-system.jpg",
     diagram_url: "/uploads/ecg-monitoring-system.jpg",
   },
+
   {
     id: 8,
     title: "Transmission-Line Monitoring for Grid Reliability",
-    status: "Ongoing",
+    status: "Completed",
+    project_type: "MATLAB/Simulink Simulation",
     category: "Power Systems",
     overview:
-      "A MATLAB/Simulink-based power-system monitoring project for observing transmission-line variables and alarm conditions related to grid reliability.",
+      "Completed MATLAB/Simulink-based power-system monitoring project for observing transmission-line variables and threshold-based alarm conditions related to grid reliability. The simulation monitors voltage, current, temperature, voltage sag and vibration conditions with fault/alarm logic and technical system documentation.",
     tags: [
       "MATLAB/Simulink",
       "Voltage",
       "Current",
       "Temperature",
-      "Sag",
+      "Voltage Sag",
       "Vibration",
       "Fault Detection",
       "Alarms",
     ],
     role:
-      "Simulation and monitoring-logic developer responsible for line-parameter modelling, threshold logic and technical documentation.",
+      "Simulation and monitoring-logic developer responsible for MATLAB/Simulink modelling, threshold logic, system diagrams, testing and documentation.",
     key_features: [
       "Voltage and current monitoring variables",
-      "Temperature, sag and vibration condition inputs",
+      "Temperature, voltage-sag and vibration condition inputs",
       "Overcurrent and undervoltage alarm logic",
       "Overtemperature reliability condition",
       "MATLAB/Simulink modelling workflow",
-      "Power-system documentation",
+      "Power-system monitoring documentation",
+      "Simulation project only — no physical hardware prototype",
     ],
-    image_url: "/uploads/transmission-line-monitoring-grid-reliability.jpeg",
-    diagram_url: "/uploads/transmission-line-monitoring-grid-reliability.jpeg",
+    image_url:
+      "/uploads/transmission-line-monitoring-grid-reliability.jpeg",
+    diagram_url:
+      "/uploads/transmission-line-monitoring-grid-reliability.jpeg",
   },
+
   {
     id: 9,
-    title: "Solar–Grid–Battery EV Charging Architecture",
-    status: "Concept Design",
+    title:
+      "Solar–Grid–Battery EV Charging System – MATLAB/Simulink Simulation",
+    status: "In Progress",
+    project_type: "MATLAB/Simulink Simulation",
     category: "Renewable Energy",
     overview:
-      "A design-only architecture for integrating solar, grid and battery sources in an EV charging system concept with source-flow planning and renewable-energy documentation.",
+      "Ongoing MATLAB/Simulink simulation-development project for a final-year Electrical Engineering team, focused on a grid-connected Solar PV–BESS–EV charging architecture. Current work includes system modelling, source integration, converter stages, power-flow behaviour and control-system development.",
     tags: [
-      "Solar",
-      "Grid",
-      "Battery",
+      "Solar PV",
+      "Utility Grid",
+      "BESS",
       "EV Charging",
-      "Architecture",
-      "Renewable Energy",
-      "Design",
+      "MATLAB/Simulink",
+      "Power Electronics",
+      "Converters",
+      "Energy Management",
     ],
     role:
-      "Concept and architecture designer responsible for source integration, block-level planning and system documentation.",
+      "Simulation developer and technical project support responsible for MATLAB/Simulink model development, system architecture, source and converter integration, control development and technical documentation.",
     key_features: [
-      "Solar-grid-battery integration concept",
-      "EV charging architecture planning",
-      "Source-flow documentation",
-      "Renewable-energy system design thinking",
-      "Clearly identified as concept/design-only",
+      "Solar PV, utility-grid and BESS integration",
+      "Grid-connected EV charging architecture",
+      "MATLAB/Simulink system development",
+      "Converter-stage modelling",
+      "Power-flow and energy-management analysis",
+      "Control-system integration",
+      "Planned next phase: simulation validation, results analysis and research-paper development",
     ],
-    image_url: "/uploads/solar-grid-battery-ev-charging-architecture.jpg",
-    diagram_url: "/uploads/solar-grid-battery-ev-charging-architecture.jpg",
+    image_url:
+      "/uploads/solar-grid-battery-ev-charging-architecture.jpg",
+    diagram_url:
+      "/uploads/solar-grid-battery-ev-charging-architecture.jpg",
+  },
+
+    {
+    id: 10,
+    title:
+      "SolarSense AI – AI-Assisted Solar Panel Monitoring & Automatic Cleaning System",
+    status: "Completed",
+    project_type: "Contract Final-Year Project / AI + Embedded Hardware",
+    category: "Renewable Energy",
+
+    overview:
+      "A contract-based final-year project integrating an ESP32-controlled solar-panel cleaning mechanism with environmental sensing, local web monitoring and an AI computer-vision system for solar-panel condition assessment. The completed prototype monitors operating conditions, automates panel cleaning and provides AI-based detection of dust severity, surface cracks and bird droppings.",
+
+    tags: [
+      "ESP32",
+      "Solar PV",
+      "AI Vision",
+      "YOLOv8",
+      "BH1750",
+      "BMP280",
+      "DS18B20",
+      "BTS7960",
+      "Limit Switches",
+      "Water Pump",
+      "Web Dashboard",
+      "Automatic Cleaning",
+    ],
+
+    role:
+      "Contract FYP developer responsible for component selection and procurement, complete hardware fabrication, ESP32 firmware development, sensor and actuator integration, AI model development and integration, dashboard development, system testing and EdrawMax circuit and system documentation.",
+
+    key_features: [
+      "AI-assisted solar-panel visual condition monitoring",
+      "Dust-severity percentage and AI-confidence display",
+      "Surface-crack detection using computer vision",
+      "Bird-dropping detection using computer vision",
+      "Panel-condition classification through the AI dashboard",
+      "BH1750-based solar light-intensity monitoring",
+      "DS18B20-based solar-panel temperature monitoring",
+      "BMP280-based ambient temperature and pressure monitoring",
+      "Automatic cleaning carriage controlled through a BTS7960 motor driver",
+      "Top and bottom limit switches for mechanical travel protection",
+      "Water-pump control for automatic panel washing",
+      "ESP32 local Wi-Fi dashboard for monitoring and manual control",
+      "Automatic CLEAN NOW and RETURN HOME operating sequences",
+      "Engineering test controls for motor movement and pump operation",
+      "Motor travel timeout, limit-switch interlocks and fault handling",
+      "Complete hardware fabrication and EdrawMax circuit documentation",
+    ],
+
+    image_url: "/uploads/solarsense-ai-hardware.jpg",
+
+    diagram_url: "/uploads/solarsense-ai-circuit-diagram.jpg",
+
+    dashboard_url: "/uploads/solarsense-ai-ai-dashboard.jpg",
+
+    gallery: [
+      "/uploads/solarsense-ai-hardware.jpg",
+      "/uploads/solarsense-ai-hardware-2.jpg",
+      "/uploads/solarsense-ai-electronics.jpg",
+      "/uploads/solarsense-ai-cleaning-mechanism.jpg",
+      "/uploads/solarsense-ai-circuit-diagram.jpg",
+      "/uploads/solarsense-ai-local-dashboard.png",
+      "/uploads/solarsense-ai-ai-dashboard.png",
+      "/uploads/solarsense-ai-dust-test.png",
+    ],
   },
 ];
 
@@ -301,7 +406,11 @@ export const MINI_PROJECTS = [
     title: "Traffic Light Controller Using 555 Timer and CD4017",
     area: "Digital Electronics",
     date: "Nov 2024",
-    technologies: ["555 Timer IC", "CD4017 Decade Counter", "LEDs"],
+    technologies: [
+      "555 Timer IC",
+      "CD4017 Decade Counter",
+      "LEDs",
+    ],
     note:
       "Designed a sequential traffic light controller using a 555 Timer IC and CD4017 decade counter, including timing analysis for automatic signal switching.",
   },
@@ -310,7 +419,12 @@ export const MINI_PROJECTS = [
     title: "Fire Alarm System",
     area: "Electronic Safety Systems",
     date: "Apr 2024",
-    technologies: ["BC547 Transistors", "IR Receiver LEDs", "Buzzer", "Indicator LEDs"],
+    technologies: [
+      "BC547 Transistors",
+      "IR Receiver LEDs",
+      "Buzzer",
+      "Indicator LEDs",
+    ],
     note:
       "Designed and implemented a fire alarm circuit using BC547 NPN transistors, IR receiver LEDs, a buzzer and indicator LEDs.",
   },
@@ -319,7 +433,11 @@ export const MINI_PROJECTS = [
     title: "4-Bit R-2R Ladder Digital-to-Analog Converter",
     area: "Analog Electronics",
     date: "2024",
-    technologies: ["R-2R Ladder Network", "IC 741 Op-Amp", "Resistors"],
+    technologies: [
+      "R-2R Ladder Network",
+      "IC 741 Op-Amp",
+      "Resistors",
+    ],
     note:
       "Developed a 4-bit R-2R ladder DAC using an IC 741 operational amplifier to study binary-to-analog conversion and output-voltage scaling.",
   },
@@ -328,7 +446,12 @@ export const MINI_PROJECTS = [
     title: "Star–Delta Connection in a Three-Phase System",
     area: "Electrical Machines and Power Systems",
     date: "Oct 2023",
-    technologies: ["Three-Phase Supply", "Resistive Loads", "Star Connection", "Delta Connection"],
+    technologies: [
+      "Three-Phase Supply",
+      "Resistive Loads",
+      "Star Connection",
+      "Delta Connection",
+    ],
     note:
       "Implemented star and delta configurations using resistive loads and analysed line voltage, phase voltage, line current and phase current.",
   },
@@ -337,7 +460,12 @@ export const MINI_PROJECTS = [
     title: "Charging and Discharging of a Capacitor",
     area: "Electrical Circuit Analysis",
     date: "Apr 2023",
-    technologies: ["Capacitor", "Resistors", "DC Supply", "RC Circuit"],
+    technologies: [
+      "Capacitor",
+      "Resistors",
+      "DC Supply",
+      "RC Circuit",
+    ],
     note:
       "Designed an RC circuit to study capacitor charging and discharging characteristics, transient response and the RC time constant.",
   },
@@ -356,7 +484,11 @@ export const MINI_PROJECTS = [
     title: "Push-Button Digital Input Control",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "Push Button", "Digital Input"],
+    technologies: [
+      "Arduino UNO",
+      "Push Button",
+      "Digital Input",
+    ],
     note:
       "Read push-button input states using Arduino and used the input to control an output device.",
     image_url: "/uploads/ieee-sscs-task-02.jpg",
@@ -396,7 +528,11 @@ export const MINI_PROJECTS = [
     title: "Arduino DC Motor Speed and Direction Control",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "DC Motor", "Motor Driver"],
+    technologies: [
+      "Arduino UNO",
+      "DC Motor",
+      "Motor Driver",
+    ],
     note:
       "Controlled DC motor operation using Arduino and motor-driving circuitry for practical actuator control.",
     image_url: "/uploads/ieee-sscs-task-06.jpg",
@@ -406,7 +542,11 @@ export const MINI_PROJECTS = [
     title: "Arduino Servo Position Controller",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "Servo Motor", "PWM"],
+    technologies: [
+      "Arduino UNO",
+      "Servo Motor",
+      "PWM",
+    ],
     note:
       "Controlled servo-motor position using timed control pulses from Arduino.",
     image_url: "/uploads/ieee-sscs-task-07.jpg",
@@ -416,7 +556,11 @@ export const MINI_PROJECTS = [
     title: "Digital Number Display Using 7-Segment",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "7-Segment Display", "GPIO"],
+    technologies: [
+      "Arduino UNO",
+      "7-Segment Display",
+      "GPIO",
+    ],
     note:
       "Controlled individual display segments to show numerical digits using Arduino digital outputs.",
     image_url: "/uploads/ieee-sscs-task-08.jpg",
@@ -426,7 +570,11 @@ export const MINI_PROJECTS = [
     title: "Arduino LCD Information Display",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "LCD", "Display Interface"],
+    technologies: [
+      "Arduino UNO",
+      "LCD",
+      "Display Interface",
+    ],
     note:
       "Displayed text, sensor values and system messages on an LCD module.",
     image_url: "/uploads/ieee-sscs-task-09.jpg",
@@ -436,7 +584,11 @@ export const MINI_PROJECTS = [
     title: "Arduino Piezo Buzzer Sound Generator",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "Piezo Buzzer", "Tone Control"],
+    technologies: [
+      "Arduino UNO",
+      "Piezo Buzzer",
+      "Tone Control",
+    ],
     note:
       "Generated audible tones and warning sounds using Arduino-controlled frequency and timing.",
     image_url: "/uploads/ieee-sscs-task-10.jpg",
@@ -446,7 +598,11 @@ export const MINI_PROJECTS = [
     title: "Arduino Keypad Input System",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "Matrix Keypad", "Digital Inputs"],
+    technologies: [
+      "Arduino UNO",
+      "Matrix Keypad",
+      "Digital Inputs",
+    ],
     note:
       "Interfaced a matrix keypad with Arduino to detect key presses for menu or password-based input.",
     image_url: "/uploads/ieee-sscs-task-11.jpg",
@@ -456,7 +612,11 @@ export const MINI_PROJECTS = [
     title: "Automatic Light Detection System",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "LDR", "Analog Input"],
+    technologies: [
+      "Arduino UNO",
+      "LDR",
+      "Analog Input",
+    ],
     note:
       "Measured ambient light level using a light sensor and controlled output based on surrounding illumination.",
     image_url: "/uploads/ieee-sscs-task-12.jpg",
@@ -466,7 +626,11 @@ export const MINI_PROJECTS = [
     title: "Temperature and Humidity Monitoring System",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "DHT Sensor", "Environmental Monitoring"],
+    technologies: [
+      "Arduino UNO",
+      "DHT Sensor",
+      "Environmental Monitoring",
+    ],
     note:
       "Measured temperature and humidity data and used the readings for display or automatic control decisions.",
     image_url: "/uploads/ieee-sscs-task-13.jpg",
@@ -476,7 +640,11 @@ export const MINI_PROJECTS = [
     title: "Ultrasonic Distance Measurement System",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "Ultrasonic Sensor", "Distance Measurement"],
+    technologies: [
+      "Arduino UNO",
+      "Ultrasonic Sensor",
+      "Distance Measurement",
+    ],
     note:
       "Measured object distance by calculating signal travel time and converting it into distance values.",
     image_url: "/uploads/ieee-sscs-task-14.jpg",
@@ -486,7 +654,11 @@ export const MINI_PROJECTS = [
     title: "Infrared Remote Control System",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "IR Receiver", "Remote Control"],
+    technologies: [
+      "Arduino UNO",
+      "IR Receiver",
+      "Remote Control",
+    ],
     note:
       "Decoded IR remote-control signals and used received commands to perform programmed actions.",
     image_url: "/uploads/ieee-sscs-task-15.jpg",
@@ -496,7 +668,11 @@ export const MINI_PROJECTS = [
     title: "Tilt and Motion Detection System",
     area: "IEEE SSCS Arduino Proficiency",
     date: "2026",
-    technologies: ["Arduino UNO", "Tilt Sensor", "Motion Detection"],
+    technologies: [
+      "Arduino UNO",
+      "Tilt Sensor",
+      "Motion Detection",
+    ],
     note:
       "Detected tilt, orientation or motion changes using a sensor and processed the signal through Arduino.",
     image_url: "/uploads/ieee-sscs-task-16.jpg",

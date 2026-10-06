@@ -8,7 +8,7 @@ const PROFILE = {
   tagline: "Concept → simulation → fabrication → tested prototype.",
 
   summary:
-    "Final-year B.E. Electrical Engineering student at Mehran University of Engineering and Technology, Jamshoro, with practical experience in power systems, renewable energy, automation, embedded systems, IoT monitoring, circuit design and hardware prototyping.",
+    "Final-year B.E. Electrical Engineering student at Mehran University of Engineering and Technology (MUET), Jamshoro, with practical experience in power systems, renewable energy, Solar PV & BESS, SCADA, substations, embedded systems, IoT monitoring, circuit design and hardware prototyping.",
 
   availability: "Open to internships, freelance projects & contract-based prototypes",
 
@@ -29,22 +29,22 @@ const PROFILE = {
     Semester: "8th Semester",
     Status: "Final-Year Student",
     Duration: "2022 – 2026",
-    Specialization:
-      "Power Systems, Renewable Energy, Embedded Systems, IoT and Hardware Prototyping",
+    "Focus Areas":
+      "Power Systems, Renewable Energy, Solar PV & BESS, Embedded Systems, Industrial Automation, IoT and Hardware Prototyping",
   },
 
   skill_tags: [
     "Power Systems",
     "Renewable Energy",
-    "Embedded Systems",
-    "IoT",
-    "Hardware Prototyping",
+    "Solar PV & BESS",
     "MATLAB/Simulink",
+    "SCADA",
+    "Embedded & IoT",
   ],
 
   counters: [
-    { label: "Projects & Prototypes", value: "40+" },
-    { label: "FYP / Contract Projects", value: "9+" },
+    { label: "Projects & Prototypes", value: "40+" }, 
+    { label: "FYP / Contract Projects", value: "8+" },
     { label: "Certifications", value: "25+" },
     { label: "Industrial Internships", value: "5" },
   ],
